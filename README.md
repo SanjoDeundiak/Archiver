@@ -16,6 +16,18 @@ ExplorerMenu1). They are, of course, platform-dependent.
 3. In order to use this apps with Windows Shell Extensions you should firstly register extension's dlls (use
 cmd with administator's privileges, then type regsvr32 "path-to-dll") and then you should add path to Encode and
 Decode executables in your register:
-a. Start regedit
-b. Go to HKLM//SOFTWARE
-c. Create subkey Deundiak//Compr with 2 string values names decode and encode with pathes to executables as values.
+  1. Start regedit
+  2. Go to HKLM//SOFTWARE
+  3. Create subkey Deundiak//Compr with 2 string values named decode and encode with pathes to executables as values.
+
+<h4>Usage</h4>
+1. Stand-alone version
+  1. Start program using command line
+  2. Parameters are pathes to files that you need encode (for Encode) or path to archive that you need to be decoded
+     (for Decode)
+
+2. Version with extensions
+  1. Open your Windows Shell
+  2. Select files that you need to be encoded
+  3. Click right button and choose appropriate menu item
+  4. In order to unpack archive click right button on it and choose appropriate menu item
