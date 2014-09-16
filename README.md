@@ -4,7 +4,7 @@ This app is an archiver based on Huffman coding (see for details http://en.wikip
 
 <h2>Functionality</h2>
 1. Compress one or more files (of cource do not try to compress *.avi *.jpg *. mp3 etc. size wouldn't decrease)
-2. Composing several files into 1 archive file (folders are now allowed)
+2. Composing several files into 1 archive file (folders are not allowed)
 
 <h3>Installation</h3>
 1. To use this app you should have some QT libraries (see list of libraries in LIBRARIES.TXT, you can download
